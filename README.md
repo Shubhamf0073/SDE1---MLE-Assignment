@@ -4,7 +4,7 @@ This project demonstrates the deployment of an image classification model as a w
 
 # # Structure: 
 
-1. app.py: This is the main Python script containing the Flask application code. It loads the trained model, defines routes for rendering the home page and handling image uploads, preprocesses the uploaded images, makes predictions using the model, and renders the prediction results on the web page.
+1. SDE Assignment.ipynb: This is the main Python script containing the Flask application code. It loads the trained model, defines routes for rendering the home page and handling image uploads, preprocesses the uploaded images, makes predictions using the model, and renders the prediction results on the web page.
 
 2. model.p: This file contains the trained SVM model serialized using pickle. It is loaded by the Flask application to perform image classification.
 
