@@ -8,20 +8,4 @@ This project demonstrates the deployment of an image classification model as a w
 
 2. model.p: This file contains the trained SVM model serialized using pickle. It is loaded by the Flask application to perform image classification.
 
-3. templates/index.html: This HTML file defines the structure and layout of the web page. It contains a form for uploading images and displays the prediction results returned by the Flask application.
-
-4. uploads/: This directory is used to store the images uploaded by users through the web application.
-
-5. Clone the repository to your local machine using the following command:
-
-   git clone https://github.com/your_username/image-classification-flask.git
-
-7. Navigate to the project directory:
-
-   cd image-classification-flask
-
-9. Run the Flask application:
-
-    python app.py
-
-11. Open a web browser and navigate to http://localhost:5000 to access the web application.
+3. index.html: This HTML file defines the structure and layout of the web page.
