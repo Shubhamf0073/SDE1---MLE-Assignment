@@ -8,4 +8,6 @@ This project demonstrates the deployment of an image classification model as a w
 
 2. model.p: This file contains the trained SVM model serialized using pickle. It is loaded by the Flask application to perform image classification.
 
-3. index.html: This HTML file defines the structure and layout of the web page.
+3. app.py: This file contains the code for the Flask web app
+
+4. index.html: This HTML file defines the structure and layout of the web page.
